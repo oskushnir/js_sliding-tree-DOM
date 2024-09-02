@@ -1,0 +1,2 @@
+document.querySelectorAll("ul").forEach(function(e){e.querySelectorAll("li").forEach(function(e){var t=e.firstChild.textContent,n=document.createElement("span"),l=e.querySelector("ul");t&&l&&(e.firstChild.textContent="",n.textContent=t,e.insertBefore(n,l));var o=!1;n.addEventListener("click",function(){o?l.style.display="block":l.style.display="none",o=!o})})});
+//# sourceMappingURL=index.19b210ee.js.map
